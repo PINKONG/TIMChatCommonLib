@@ -80,10 +80,6 @@
 //#import "FMDBHeaders.h"
 
 //====================
-// 提示相关
-#import "TipUtility.h"
-
-//====================
 // 网络请求相关
 #import "NetEngineHeaders.h"
 

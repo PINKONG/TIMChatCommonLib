@@ -155,7 +155,6 @@
 		4463FA522156469C003B015C /* NSObject+Json.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9302156469B003B015C /* NSObject+Json.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA532156469C003B015C /* JSONKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9312156469B003B015C /* JSONKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA542156469C003B015C /* KeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9332156469B003B015C /* KeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4463FA552156469C003B015C /* BaseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9342156469B003B015C /* BaseAppDelegate.m */; };
 		4463FA562156469C003B015C /* LibraryNavigationPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9352156469B003B015C /* LibraryNavigationPanel.m */; };
 		4463FA572156469C003B015C /* UIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9362156469B003B015C /* UIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA582156469C003B015C /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9372156469B003B015C /* ScrollViewController.m */; };
@@ -181,7 +180,6 @@
 		4463FA6C2156469C003B015C /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F94B2156469B003B015C /* PopupView.m */; };
 		4463FA6D2156469C003B015C /* NavigationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F94C2156469B003B015C /* NavigationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA6E2156469C003B015C /* LibraryNavigationPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F94D2156469B003B015C /* LibraryNavigationPanel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4463FA6F2156469C003B015C /* BaseAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F94E2156469B003B015C /* BaseAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA702156469C003B015C /* KeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F94F2156469B003B015C /* KeyValue.m */; };
 		4463FA712156469C003B015C /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9502156469B003B015C /* LibraryViewController.m */; };
 		4463FA722156469C003B015C /* LibraryScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9512156469B003B015C /* LibraryScrollView.m */; };
@@ -203,11 +201,6 @@
 		4463FA822156469C003B015C /* UIViewController+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9612156469B003B015C /* UIViewController+Layout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA832156469C003B015C /* PageMenuScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9622156469B003B015C /* PageMenuScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA842156469C003B015C /* TableSearchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9632156469B003B015C /* TableSearchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4463FA852156469C003B015C /* TipUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9652156469B003B015C /* TipUtility.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4463FA862156469C003B015C /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9662156469B003B015C /* MBProgressHUD.m */; };
-		4463FA872156469C003B015C /* HUDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F9672156469B003B015C /* HUDHelper.m */; };
-		4463FA882156469C003B015C /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9682156469B003B015C /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4463FA892156469C003B015C /* HUDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F9692156469B003B015C /* HUDHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA8A2156469C003B015C /* IOSDeviceConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F96B2156469B003B015C /* IOSDeviceConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA8B2156469C003B015C /* IOSDeviceMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4463F96C2156469B003B015C /* IOSDeviceMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4463FA8C2156469C003B015C /* IOSDeviceConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4463F96D2156469B003B015C /* IOSDeviceConfig.m */; };
@@ -445,7 +438,6 @@
 		4463F9302156469B003B015C /* NSObject+Json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Json.h"; sourceTree = "<group>"; };
 		4463F9312156469B003B015C /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		4463F9332156469B003B015C /* KeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValue.h; sourceTree = "<group>"; };
-		4463F9342156469B003B015C /* BaseAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAppDelegate.m; sourceTree = "<group>"; };
 		4463F9352156469B003B015C /* LibraryNavigationPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryNavigationPanel.m; sourceTree = "<group>"; };
 		4463F9362156469B003B015C /* UIFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIFramework.h; sourceTree = "<group>"; };
 		4463F9372156469B003B015C /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
@@ -471,7 +463,6 @@
 		4463F94B2156469B003B015C /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
 		4463F94C2156469B003B015C /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
 		4463F94D2156469B003B015C /* LibraryNavigationPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryNavigationPanel.h; sourceTree = "<group>"; };
-		4463F94E2156469B003B015C /* BaseAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAppDelegate.h; sourceTree = "<group>"; };
 		4463F94F2156469B003B015C /* KeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValue.m; sourceTree = "<group>"; };
 		4463F9502156469B003B015C /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
 		4463F9512156469B003B015C /* LibraryScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryScrollView.m; sourceTree = "<group>"; };
@@ -493,11 +484,6 @@
 		4463F9612156469B003B015C /* UIViewController+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Layout.h"; sourceTree = "<group>"; };
 		4463F9622156469B003B015C /* PageMenuScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageMenuScrollView.h; sourceTree = "<group>"; };
 		4463F9632156469B003B015C /* TableSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSearchViewController.h; sourceTree = "<group>"; };
-		4463F9652156469B003B015C /* TipUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TipUtility.h; sourceTree = "<group>"; };
-		4463F9662156469B003B015C /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		4463F9672156469B003B015C /* HUDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDHelper.m; sourceTree = "<group>"; };
-		4463F9682156469B003B015C /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		4463F9692156469B003B015C /* HUDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDHelper.h; sourceTree = "<group>"; };
 		4463F96B2156469B003B015C /* IOSDeviceConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSDeviceConfig.h; sourceTree = "<group>"; };
 		4463F96C2156469B003B015C /* IOSDeviceMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSDeviceMacro.h; sourceTree = "<group>"; };
 		4463F96D2156469B003B015C /* IOSDeviceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOSDeviceConfig.m; sourceTree = "<group>"; };
@@ -637,7 +623,6 @@
 				4463F9062156469B003B015C /* Animation */,
 				4463F92B2156469B003B015C /* JSON */,
 				4463F9322156469B003B015C /* UIFramework */,
-				4463F9642156469B003B015C /* TipUtility */,
 				4463F96A2156469B003B015C /* IOSDeviceSetting */,
 				4463F96E2156469B003B015C /* Font */,
 				4463F9712156469B003B015C /* BlocksKit */,
@@ -921,69 +906,55 @@
 		4463F9322156469B003B015C /* UIFramework */ = {
 			isa = PBXGroup;
 			children = (
-				4463F9332156469B003B015C /* KeyValue.h */,
-				4463F9342156469B003B015C /* BaseAppDelegate.m */,
-				4463F9352156469B003B015C /* LibraryNavigationPanel.m */,
-				4463F9362156469B003B015C /* UIFramework.h */,
-				4463F9372156469B003B015C /* ScrollViewController.m */,
-				4463F9382156469B003B015C /* PageScrollView.m */,
-				4463F9392156469B003B015C /* RefreshView.h */,
-				4463F93A2156469B003B015C /* NSObject+loadPadClass.m */,
-				4463F93B2156469B003B015C /* CommonBaseViewController.m */,
-				4463F93C2156469B003B015C /* LibraryViewController.h */,
-				4463F93D2156469B003B015C /* LibraryScrollView.h */,
-				4463F93E2156469B003B015C /* BaseViewController.m */,
-				4463F93F2156469B003B015C /* RefreshAbleView.h */,
-				4463F9402156469B003B015C /* TableRefreshViewController.m */,
-				4463F9412156469B003B015C /* UINavigationController+Transition.h */,
-				4463F9422156469B003B015C /* MenuAbleItem.h */,
-				4463F9432156469B003B015C /* UIView+Layout.m */,
-				4463F9442156469B003B015C /* TableSearchViewController.m */,
-				4463F9452156469B003B015C /* PageMenuScrollView.m */,
-				4463F9462156469B003B015C /* UIViewController+Layout.m */,
-				4463F9472156469B003B015C /* ScrollBaseViewController.m */,
-				4463F9482156469B003B015C /* MenuItem.m */,
-				4463F9492156469B003B015C /* ScrollRefreshViewController.h */,
 				4463F94A2156469B003B015C /* BaseCollectionViewController.h */,
-				4463F94B2156469B003B015C /* PopupView.m */,
-				4463F94C2156469B003B015C /* NavigationViewController.h */,
-				4463F94D2156469B003B015C /* LibraryNavigationPanel.h */,
-				4463F94E2156469B003B015C /* BaseAppDelegate.h */,
-				4463F94F2156469B003B015C /* KeyValue.m */,
-				4463F9502156469B003B015C /* LibraryViewController.m */,
-				4463F9512156469B003B015C /* LibraryScrollView.m */,
-				4463F9522156469B003B015C /* CommonBaseViewController.h */,
-				4463F9532156469B003B015C /* NSObject+loadPadClass.h */,
-				4463F9542156469B003B015C /* RefreshView.m */,
-				4463F9552156469B003B015C /* PageScrollView.h */,
-				4463F9562156469B003B015C /* ScrollViewController.h */,
-				4463F9572156469B003B015C /* UIView+Layout.h */,
-				4463F9582156469B003B015C /* TableRefreshViewController.h */,
-				4463F9592156469B003B015C /* UINavigationController+Transition.m */,
-				4463F95A2156469B003B015C /* BaseViewController.h */,
-				4463F95B2156469B003B015C /* NavigationViewController.m */,
 				4463F95C2156469B003B015C /* BaseCollectionViewController.m */,
-				4463F95D2156469B003B015C /* PopupView.h */,
-				4463F95E2156469B003B015C /* ScrollBaseViewController.h */,
+				4463F95A2156469B003B015C /* BaseViewController.h */,
+				4463F93E2156469B003B015C /* BaseViewController.m */,
+				4463F9522156469B003B015C /* CommonBaseViewController.h */,
+				4463F93B2156469B003B015C /* CommonBaseViewController.m */,
+				4463F9332156469B003B015C /* KeyValue.h */,
+				4463F94F2156469B003B015C /* KeyValue.m */,
+				4463F94D2156469B003B015C /* LibraryNavigationPanel.h */,
+				4463F9352156469B003B015C /* LibraryNavigationPanel.m */,
+				4463F93D2156469B003B015C /* LibraryScrollView.h */,
+				4463F9512156469B003B015C /* LibraryScrollView.m */,
+				4463F93C2156469B003B015C /* LibraryViewController.h */,
+				4463F9502156469B003B015C /* LibraryViewController.m */,
+				4463F9422156469B003B015C /* MenuAbleItem.h */,
 				4463F95F2156469B003B015C /* MenuItem.h */,
-				4463F9602156469B003B015C /* ScrollRefreshViewController.m */,
-				4463F9612156469B003B015C /* UIViewController+Layout.h */,
+				4463F9482156469B003B015C /* MenuItem.m */,
+				4463F94C2156469B003B015C /* NavigationViewController.h */,
+				4463F95B2156469B003B015C /* NavigationViewController.m */,
+				4463F9532156469B003B015C /* NSObject+loadPadClass.h */,
+				4463F93A2156469B003B015C /* NSObject+loadPadClass.m */,
 				4463F9622156469B003B015C /* PageMenuScrollView.h */,
+				4463F9452156469B003B015C /* PageMenuScrollView.m */,
+				4463F9552156469B003B015C /* PageScrollView.h */,
+				4463F9382156469B003B015C /* PageScrollView.m */,
+				4463F95D2156469B003B015C /* PopupView.h */,
+				4463F94B2156469B003B015C /* PopupView.m */,
+				4463F93F2156469B003B015C /* RefreshAbleView.h */,
+				4463F9392156469B003B015C /* RefreshView.h */,
+				4463F9542156469B003B015C /* RefreshView.m */,
+				4463F95E2156469B003B015C /* ScrollBaseViewController.h */,
+				4463F9472156469B003B015C /* ScrollBaseViewController.m */,
+				4463F9492156469B003B015C /* ScrollRefreshViewController.h */,
+				4463F9602156469B003B015C /* ScrollRefreshViewController.m */,
+				4463F9562156469B003B015C /* ScrollViewController.h */,
+				4463F9372156469B003B015C /* ScrollViewController.m */,
+				4463F9582156469B003B015C /* TableRefreshViewController.h */,
+				4463F9402156469B003B015C /* TableRefreshViewController.m */,
 				4463F9632156469B003B015C /* TableSearchViewController.h */,
+				4463F9442156469B003B015C /* TableSearchViewController.m */,
+				4463F9362156469B003B015C /* UIFramework.h */,
+				4463F9412156469B003B015C /* UINavigationController+Transition.h */,
+				4463F9592156469B003B015C /* UINavigationController+Transition.m */,
+				4463F9572156469B003B015C /* UIView+Layout.h */,
+				4463F9432156469B003B015C /* UIView+Layout.m */,
+				4463F9612156469B003B015C /* UIViewController+Layout.h */,
+				4463F9462156469B003B015C /* UIViewController+Layout.m */,
 			);
 			path = UIFramework;
-			sourceTree = "<group>";
-		};
-		4463F9642156469B003B015C /* TipUtility */ = {
-			isa = PBXGroup;
-			children = (
-				4463F9652156469B003B015C /* TipUtility.h */,
-				4463F9662156469B003B015C /* MBProgressHUD.m */,
-				4463F9672156469B003B015C /* HUDHelper.m */,
-				4463F9682156469B003B015C /* MBProgressHUD.h */,
-				4463F9692156469B003B015C /* HUDHelper.h */,
-			);
-			path = TipUtility;
 			sourceTree = "<group>";
 		};
 		4463F96A2156469B003B015C /* IOSDeviceSetting */ = {
@@ -1119,12 +1090,10 @@
 				4463FA9A2156469C003B015C /* NSMapTable+BlocksKit.h in Headers */,
 				4463FA802156469C003B015C /* MenuItem.h in Headers */,
 				4463F9D22156469C003B015C /* EGORefreshTableHeaderView.h in Headers */,
-				4463FA892156469C003B015C /* HUDHelper.h in Headers */,
 				4463FA4A2156469C003B015C /* ADHeaders.h in Headers */,
 				4463F9F72156469C003B015C /* UIView+Effect.h in Headers */,
 				4463FA9B2156469C003B015C /* BlocksKit.h in Headers */,
 				4463F9F12156469C003B015C /* UIView+RelativeCoordinate.h in Headers */,
-				4463FA882156469C003B015C /* MBProgressHUD.h in Headers */,
 				4463F9C52156469C003B015C /* UIImageView+InitMethod.h in Headers */,
 				4463FA212156469C003B015C /* NSData+MKBase64.h in Headers */,
 				4463FA792156469C003B015C /* TableRefreshViewController.h in Headers */,
@@ -1228,7 +1197,6 @@
 				4463F9D12156469C003B015C /* MoreTableView.h in Headers */,
 				4463F9F02156469C003B015C /* UIImage+Common.h in Headers */,
 				4463FACC2156469C003B015C /* UIImageView+HighlightedWebCache.h in Headers */,
-				4463FA6F2156469C003B015C /* BaseAppDelegate.h in Headers */,
 				4463FAD92156469C003B015C /* UIImage+GIF.h in Headers */,
 				4463FA912156469C003B015C /* UIPopoverController+BlocksKit.h in Headers */,
 				4463FA142156469C003B015C /* MKNetworkKit.h in Headers */,
@@ -1263,7 +1231,6 @@
 				4463F9C02156469C003B015C /* FBKVOController.h in Headers */,
 				4463FAC82156469C003B015C /* SDWebImageHeaders.h in Headers */,
 				4463FA122156469C003B015C /* NetEngineHeaders.h in Headers */,
-				4463FA852156469C003B015C /* TipUtility.h in Headers */,
 				4463F9CB2156469C003B015C /* CommonViewHeaders.h in Headers */,
 				4463FA262156469C003B015C /* Global.h in Headers */,
 				4463FA572156469C003B015C /* UIFramework.h in Headers */,
@@ -1383,7 +1350,6 @@
 				4463FAD02156469C003B015C /* NSData+ImageContentType.m in Sources */,
 				4463FA652156469C003B015C /* TableSearchViewController.m in Sources */,
 				4463FA682156469C003B015C /* ScrollBaseViewController.m in Sources */,
-				4463FA872156469C003B015C /* HUDHelper.m in Sources */,
 				4463FA672156469C003B015C /* UIViewController+Layout.m in Sources */,
 				4463FAC52156469C003B015C /* SDWebImageCompat.m in Sources */,
 				4463FA3F2156469C003B015C /* ADScaleTransition.m in Sources */,
@@ -1418,7 +1384,6 @@
 				4463FA702156469C003B015C /* KeyValue.m in Sources */,
 				4463FA4C2156469C003B015C /* UIViewController+ADTransition.m in Sources */,
 				4463FA7D2156469C003B015C /* BaseCollectionViewController.m in Sources */,
-				4463FA552156469C003B015C /* BaseAppDelegate.m in Sources */,
 				4463F9E12156469C003B015C /* NSString+RegexCheck.m in Sources */,
 				4463F9D32156469C003B015C /* CheckButton.m in Sources */,
 				4463F9E52156469C003B015C /* UIViewController+ChildViewController.m in Sources */,
@@ -1439,7 +1404,6 @@
 				4463FA0F2156469C003B015C /* NetworkUtility.m in Sources */,
 				4463F9F22156469C003B015C /* CLSafeMutableArray.m in Sources */,
 				4463FA412156469C003B015C /* ADFlipTransition.m in Sources */,
-				4463FA862156469C003B015C /* MBProgressHUD.m in Sources */,
 				4463FAB82156469C003B015C /* UIImage+WebP.m in Sources */,
 				4463FA1F2156469C003B015C /* UIImageView+MKNetworkKitAdditions.m in Sources */,
 				4463FA272156469C003B015C /* UIColor+MLPFlatColors.m in Sources */,

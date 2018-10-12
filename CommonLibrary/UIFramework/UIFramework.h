@@ -42,8 +42,6 @@
 
 #import "PageScrollView.h"
 
-#import "BaseAppDelegate.h"
-
 // 过渡动画
 #import "UINavigationController+Transition.h"
 
