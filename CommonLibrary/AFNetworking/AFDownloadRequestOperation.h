@@ -20,7 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "AFHTTPRequestOperation.h"
+#import <TIMCommonLib/AFHTTPRequestOperation.h>
 
 #define kAFNetworkingIncompleteDownloadFolderName @"Incomplete"
 

@@ -29,11 +29,11 @@
 #import <CoreServices/CoreServices.h>
 #endif
 
-#import "AFHTTPRequestOperation.h"
-#import "AFURLResponseSerialization.h"
-#import "AFURLRequestSerialization.h"
-#import "AFSecurityPolicy.h"
-#import "AFNetworkReachabilityManager.h"
+#import <TIMCommonLib/AFHTTPRequestOperation.h>
+#import <TIMCommonLib/AFURLResponseSerialization.h>
+#import <TIMCommonLib/AFURLRequestSerialization.h>
+#import <TIMCommonLib/AFSecurityPolicy.h>
+#import <TIMCommonLib/AFNetworkReachabilityManager.h>
 
 #ifndef NS_DESIGNATED_INITIALIZER
 #if __has_attribute(objc_designated_initializer)
